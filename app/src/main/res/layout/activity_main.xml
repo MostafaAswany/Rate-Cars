@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mostafa.example.com.ratecars.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0029be"
+        android:gravity="center_horizontal"
+        android:text="Choose which car is the best ?!"
+        android:textColor="#03e7e4"
+        android:textSize="26sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ViewFlipper
+            android:id="@+id/viewFlipper"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="bmw1"
+                android:src="@drawable/bmw1" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="bmw2"
+                android:src="@drawable/bmw2" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="bmw3"
+                android:src="@drawable/bmw3" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="bmw4"
+                android:src="@drawable/bmw4" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="bmw5"
+                android:src="@drawable/bmw5" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="bmw6"
+                android:src="@drawable/bmw6" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="bmwf"
+                android:src="@drawable/bmwf" />
+
+        </ViewFlipper>
+
+        <!-- _______ViewFlipper2___________   -->
+        <ViewFlipper
+            android:id="@+id/viewFlipper2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="jaguar1"
+                android:src="@drawable/jaguar1" />
+
+            <ImageView
+                android:id="@id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="jaguar2"
+                android:src="@drawable/jaguar2" />
+
+            <ImageView
+                android:id="@id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="jaguar3"
+                android:src="@drawable/jaguar3" />
+
+            <ImageView
+                android:id="@id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="jaguar4"
+                android:src="@drawable/jaguar4" />
+
+            <ImageView
+                android:id="@id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="jaguar5"
+                android:src="@drawable/jaguar5" />
+
+            <ImageView
+                android:id="@id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="jaguar6"
+                android:src="@drawable/jaguar6" />
+
+            <ImageView
+                android:id="@id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="jaguarf"
+                android:src="@drawable/jaguarf" />
+
+        </ViewFlipper>
+
+        <TextView
+            android:id="@+id/winCar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0"
+            android:background="@drawable/win_car"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>
