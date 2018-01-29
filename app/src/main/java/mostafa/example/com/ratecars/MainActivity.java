@@ -121,11 +121,9 @@ public class MainActivity extends AppCompatActivity {
         proccessMethod();
     }
 ////////////////////////////////////////////////////////////////////
-
-    /**
-     * (Jaguar Cars)
-     * if jaguar onClick>> showNext Pic.
-     * jaguar = jaguar + 1;
+  /**
+     * (jaguar Cars)
+     * When clicking on the image jaguar apply the following operations
      */
     public void jaguar1(View view) {
         increse_Jaguar_value();
